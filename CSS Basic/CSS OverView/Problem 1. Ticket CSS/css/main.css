@@ -1,0 +1,55 @@
+.table{
+    background-color: rgb(89, 89, 89);
+    border-collapse: separate;
+    width: 300px;
+}
+.header-row{
+    text-align: left;
+}
+td, th{
+    padding-top: 8px;
+}
+.header{
+    background-color: rgb(89, 89, 89);
+    color: rgb(160, 160, 160);
+    font-family: Helvetica;
+    font-weight: 100;
+}
+.description{
+    font-style: italic;
+    color: white;
+    font-size: 11px;
+    font-family: Helvetica;
+    width: 95px;
+}
+.name, .email, .link{
+    color: bisque;
+    font-size: 11px;
+    font-family: Helvetica;
+}
+.support{
+    color: red;
+    font-size: 11px;
+    font-family: Helvetica;
+}
+.response, .locked{
+    color: rgb(160, 160, 160);
+    font-family: Helvetica;
+    font-size: 11px;
+}
+.locked{
+    margin-top: 0;
+}
+.status{
+    color: orange;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
+.description td{
+    margin-right: 20px;
+}

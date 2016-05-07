@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(169, 169, 169);
+}
+header {
+    color: white;
+}
+header h1{
+    text-align: center;
+    position: static;
+}
+nav {
+    margin-left: 650px;
+}
+header a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+a:last-child {
+    text-decoration: underline;
+}
+.hover {
+    background-color: rgb(211, 211, 211);
+}
+p {
+    font-weight: 600;
+}
+time {
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.table {
+    border-collapse: collapse;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+th {
+    text-align: left;
+    background-color: rgb(84, 183, 6);
+    color: white;
+    font-weight: 100;
+    
+}
+.background-style{
+    background-color: rgb(236, 236, 216);
+}
+tr:last-child{
+    border-bottom: 1px solid gray;
+}
+td, th {
+    padding: 4px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+th:first-child, td:first-child{
+    border-left: 0;
+}
+th:last-child, td:last-child{
+    border-right: 0;
+}
+img{
+    width: 20px;
+    height: 15px;
+}
+.name{
+    width: 131px;
+}
+.city {
+    width: 100px;
+}
+.country {
+    width: 116px;
+}
+.promoted {
+    width: 75px;
+}
