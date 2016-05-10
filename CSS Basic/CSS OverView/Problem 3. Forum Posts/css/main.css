@@ -7,26 +7,34 @@ header {
 header h1{
     text-align: center;
     position: static;
+    font-size: 50px;
 }
 nav {
-    margin-left: 650px;
+    margin-left: 620px;
+    margin-bottom: 50px;
 }
 header a {
     display: block;
     text-decoration: none;
     color: white;
+    font-size: 24px;
+    width: 95px;
 }
-a:last-child {
-    text-decoration: underline;
-}
-.hover {
+nav > a:hover {
     background-color: rgb(211, 211, 211);
 }
-p {
-    font-weight: 600;
+nav a:last-child {
+    text-decoration: underline;
+}
+h2 {
+    font-size: 32px;
 }
 time {
     font-size: 12px;
+}
+article a {
+    text-decoration: none;
+    color: black;
 }
 footer {
     text-align: center;
