@@ -1,0 +1,14 @@
+article {
+    font-family: Consolas, Edwardian Script ITC;
+    color: #0094ff;
+    width: 650px;
+}
+p::first-line {
+    font-weight: bold;
+    line-height: 40px;
+    
+}
+p::first-letter {
+    font-family: Monsieur La Doulaise;
+    font-size: 30px;
+}

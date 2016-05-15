@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Windows Claculator</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header>
+            <span>Calculator</span>
+        </header>
+        <div class="calculator">
+            <nav class="options">
+                <ul>
+                    <li>View</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+            <section>
+                <div class="result">
+                    <p>8854455</p>
+                </div>
+                <div class="binary-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td class="aligh-right">0000</td>
+                            </tr>
+                            <tr class="bit-index">
+                                <td>63</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>47</td>
+                                <td></td>
+                                <td></td>
+                                <td class="aligh-right">32</td>
+                            </tr>
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>1000</td>
+                                <td>0111</td>
+                                <td>0001</td>
+                                <td>1011</td>
+                                <td>1011</td>
+                                <td class="aligh-right">0111</td>
+                            </tr>
+                            <tr class="bit-index">
+                                <td>31</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>15</td>
+                                <td></td>
+                                <td></td>
+                                <td class="aligh-right">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table cellspacing="3">
+                    <tr>
+                        <td class="numeral-systems" colspan="2" rowspan="3">
+                            <p><input type="radio" name="num-sys" value="">Hex</p>
+                            <p><input type="radio" name="num-sys" value="" checked>Dec</p>
+                            <p><input type="radio" name="num-sys" value="">Oct</p>
+                            <p><input type="radio" name="num-sys" value="">Bin</p>
+                        </td>
+                        <td class="btn disable"></td>
+                        <td class="btn enable">Mod</td>
+                        <td class="btn different-border bigger-size">A</td>
+                        <td class="btn disable">MC</td>
+                        <td class="btn disable">MR</td>
+                        <td class="btn disable">MS</td>
+                        <td class="btn disable">M+</td>
+                        <td class="btn disable">M-</td>
+                    </tr>
+                    <tr>
+                        <td class="btn enable">(</td>
+                        <td class="btn enable">)</td>
+                        <td class="btn different-border bigger-size">B</td>
+                        <td class="btn enable backspace">&leftarrow;</td>
+                        <td class="btn enable">CE</td>
+                        <td class="btn enable">C</td>
+                        <td class="btn enable">&plusmn;</td>
+                        <td class="btn different-border">&Sqrt;</td>
+                    </tr>
+                    <tr>
+                        <td class="btn enable">RoL</td>
+                        <td class="btn enable">RoR</td>
+                        <td class="btn different-border bigger-size">C</td>
+                        <td class="btn number">7</td>
+                        <td class="btn number">8</td>
+                        <td class="btn number">9</td>
+                        <td class="btn enable">/</td>
+                        <td class="btn different-border">%</td>
+                    </tr>
+                    <tr>
+                        <td class="numeral-systems" colspan="2" rowspan="3">
+                            <p><input type="radio" name="word" value="" checked>Qword</p>
+                            <p><input type="radio" name="word" value="">Dword</p>
+                            <p><input type="radio" name="word" value="">Word</p>
+                            <p><input type="radio" name="word" value="">Byte</p>
+                        </td>
+                        <td class="btn enable">Or</td>
+                        <td class="btn enable">Xor</td>
+                        <td class="btn different-border bigger-size">D</td>
+                        <td class="btn number">4</td>
+                        <td class="btn number">5</td>
+                        <td class="btn number">6</td>
+                        <td class="btn enable">*</td>
+                        <td class="btn different-border">1/x</td>
+                    </tr>
+                    <tr>
+                        <td class="btn enable">Lsh</td>
+                        <td class="btn enable">Rsh</td>
+                        <td class="btn different-border bigger-size">E</td>
+                        <td class="btn number">1</td>
+                        <td class="btn number">2</td>
+                        <td class="btn number">3</td>
+                        <td class="btn enable">-</td>
+                        <td class="btn enable equal" rowspan="2">=</td>
+                    </tr>
+                    <tr>
+                        <td class="btn enable">Not</td>
+                        <td class="btn enable">And</td>
+                        <td class="btn different-border bigger-size">F</td>
+                        <td class="btn number" colspan="2">0</td>
+                        <td class="btn different-border">.</td>
+                        <td class="btn enable">+</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
