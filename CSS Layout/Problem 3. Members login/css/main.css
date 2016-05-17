@@ -1,0 +1,49 @@
+main {
+    padding: 5px;
+    width: 49%;
+}
+nav {
+    background-color: #343434;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+nav * {
+    margin-right: 18px;
+}
+nav input[type=text], nav input[type=email] {
+    margin-top: 5px
+}
+nav input[type=image] {
+    margin-right: 0;
+}
+nav span {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+section {
+    background-color: #3B3B3B;
+    color: lightgray;
+    padding: 15px;
+    padding-bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.different-color {
+    color: white;
+}
+h1 {
+    color: yellow;
+}
+p {
+    max-width: 560px;
+}
+img {
+    float: left;
+}
+input[type=image] {
+    float: right;
+    border: 1px solid white;
+    border-radius: 16px;
+}
