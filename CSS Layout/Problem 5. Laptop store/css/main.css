@@ -1,0 +1,59 @@
+.container {
+    width: 920px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    color: #18B5F1;
+    font-size: 22px;
+}
+#main-section {
+    display: flex;
+    flex-direction: row;
+}
+.table {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+fieldset {
+    width: 44%;
+}
+fieldset div {
+    margin: 20px 5px;
+}
+fieldset span {
+    display: inline-block;
+    margin: 0 25px;
+}
+img {
+    margin-right: 5px;
+    float: left;
+    width: 140px;
+    height: 80px;
+}
+hr {
+    height: 1px;
+    background-color: black;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+aside div {
+    margin: 15px 5px;
+}
+aside span {
+    display: inline-block;
+}
+.margin-right {
+    margin-right: 20px;
+}
