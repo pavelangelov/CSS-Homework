@@ -7,7 +7,7 @@ LESS
 	*	Create the LESS easy to change (backgrounds, fonts)
 	*	Use mixins for clears, gradients)
 
-![picture1](images/ForumPost.png)
+![picture1](examples/ForumPost.png)
 
 ### Problem 2. Web Gallery
 *	Create a web gallery
@@ -15,4 +15,4 @@ LESS
 	*	List images
 	*	When a image is selected, show it zoomed
 
-![picture2](images/WebGallery.png)
+![picture2](examples/WebGallery.png)
