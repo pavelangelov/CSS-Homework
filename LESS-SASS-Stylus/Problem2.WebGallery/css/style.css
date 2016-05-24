@@ -1,0 +1,36 @@
+html,
+body,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+}
+#images-container {
+  padding: 10px 20px;
+  list-style-type: none;
+}
+#images-container li {
+  margin-left: 20px;
+  display: inline-block;
+}
+#images-container li label:hover {
+  cursor: pointer;
+}
+#images-container li input {
+  display: none;
+}
+#images-container li .zoomed {
+  display: none;
+}
+#images-container li input:checked + label + .zoomed {
+  display: block;
+  position: absolute;
+  top: 200px;
+  width: 550px;
+  height: 450px;
+}
+#images-container li img {
+  width: 150px;
+  height: 150px;
+}
